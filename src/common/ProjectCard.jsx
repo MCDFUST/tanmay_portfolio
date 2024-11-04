@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './sections/Projects/ProjectCard.module.css';
+import styles from 'src/sections/Projects/ProjectCard.module.css';
 
 function ProjectCard({ h3, p, description }) {
   return (
