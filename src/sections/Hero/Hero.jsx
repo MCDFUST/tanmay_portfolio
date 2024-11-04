@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/profil.jpg';
+import heroImg from '../../assets/profile.jpg'; // Ensure this is your profile image path
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Resume.pdf';
+import CV from '../../assets/Resume.pdf'; // Ensure this is your resume path
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of tanmay"
+          alt="Profile picture of Tanmay Jain"
         />
         <img
           className={styles.colorMode}
@@ -35,26 +35,18 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <h1>
-          Tanmay Jain
-          <br />
-          Das
-        </h1>
-        <h2>VR/Game Developer</h2>
+        <h1>Tanmay Jain</h1>
+        <h2>Full Stack Developer</h2>
         <span>
-          <a href="https://x.com/das_mangalam" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="https://github.com/Mangalam-D" target="_blank">
+          <a href="https://github.com/MCDFUST" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/kumar-manglam-das/" target="_blank">
+          <a href="https://www.linkedin.com/in/tanmayjain404/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-        With a passion for developing games and keen intrest in Virtual Reality 
-        field.
+          Passionate about web development, full-stack projects, and exploring the world of virtual reality and game development.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

@@ -1,7 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import GTA_Clone from '../../assets/GTA.png';
-import Cartoon_City from '../../assets/Cartoon_City.png';
-import Mall from '../../assets/Mall.png';
+import ResumeBuilder from '../../assets/ResumeBuilder.png';
+import ImageSteganography from '../../assets/ImageSteganography.png';
+import VR_UnderwaterTemple from '../../assets/VR_UnderwaterTemple.png';
+import RGBLampControl from '../../assets/RGBLampControl.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -10,22 +11,24 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={GTA_Clone}
-          link="https://jklujaipur-my.sharepoint.com/:v:/g/personal/kumardas_jklu_edu_in/EbnAYeWSkidJlKb9LCnQl2sBSXm04c95geBDh1iD1xuJbQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=es9uB7"
-          h3="GTA Clone"
-          p="Game"
+          src={ResumeBuilder}
+          h3="Resume Builder"
+          p="Java, Java Swing, MySQL, Derby"
         />
         <ProjectCard
-          src={Cartoon_City}
-          link="https://jklujaipur-my.sharepoint.com/:v:/g/personal/kumardas_jklu_edu_in/ETyBLHdNt7dAmpkWCQnyiZ4Bn6FfFXdDLGh7lYURnC0Cqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DJHqeK"
-          h3="Cartoon City"
-          p="Virtual City"
+          src={ImageSteganography}
+          h3="Image Steganography"
+          p="Python, Cryptography"
         />
         <ProjectCard
-          src={Mall}
-          link="https://drive.google.com/file/d/1W4hquVZ0eH2OMpOn4i4EeqFxwCzCGIPM/view?usp=sharing"
-          h3="Mall"
-          p="3D Design"
+          src={VR_UnderwaterTemple}
+          h3="VR Underwater Temple"
+          p="Unreal Engine, Blender"
+        />
+        <ProjectCard
+          src={RGBLampControl}
+          h3="RGB Lamp Control UI"
+          p="Python, Tkinter"
         />
       </div>
     </section>
