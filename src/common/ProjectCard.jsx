@@ -1,12 +1,11 @@
 import React from 'react';
-import styles from 'src/sections/Projects/ProjectsStyles.module.css';
 
-function ProjectCard({ h3, p, description }) {
+function ProjectCard({ src, link, h3, p }) {
   return (
-    <div className={styles.projectCard}>
-      <h3 className={styles.projectTitle}>{h3}</h3>
-      <p className={styles.projectTech}>{p}</p>
-      <p className={styles.projectDescription}>{description}</p>
+    <div>
+      <h3>{h3}</h3>
+      <p>{p}</p>
+      <p>{description}</p>
     </div>
   );
 }
