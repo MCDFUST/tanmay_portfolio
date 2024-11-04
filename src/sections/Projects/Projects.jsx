@@ -6,6 +6,7 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <div class="row">
         <ProjectCard
           h3="Resume Builder"
           p="Java, Java Swing, MySQL, Derby"
@@ -26,6 +27,7 @@ function Projects() {
           p="Python, Tkinter"
           description="An interactive UI in Python for controlling an RGB lamp with on/off switches, color selection, and an intuitive graphical interface built using Tkinter."
         />
+      </div>
       </div>
     </section>
   );
