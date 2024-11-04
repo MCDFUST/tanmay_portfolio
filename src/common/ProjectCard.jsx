@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './ProjectCard.module.css';
 
-function ProjectCard({ src, link, h3, p }) {
+function ProjectCard({ h3, p, description }) {
   return (
-    <a href={link} target="_blank">
-      <img className="hover" src={src} alt={`${h3} logo`} />
-      <h3>{h3}</h3>
-      <p>{p}</p>
-    </a>
+    <div className={styles.projectCard}>
+      <h3 className={styles.projectTitle}>{h3}</h3>
+      <p className={styles.projectTech}>{p}</p>
+      <p className={styles.projectDescription}>{description}</p>
+    </div>
   );
 }
 
