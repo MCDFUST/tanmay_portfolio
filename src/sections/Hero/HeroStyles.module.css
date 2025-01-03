@@ -8,6 +8,7 @@
   min-height: 500px;
 
   .hero {
+    border-radius:50%;
     max-width: 200px;
   }
 
