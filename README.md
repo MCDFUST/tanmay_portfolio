@@ -10,7 +10,7 @@ To run this portfolio locally:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Portfolio
+   cd tanmay_portfolio
    ```
 3. Install dependencies:
    ```bash
