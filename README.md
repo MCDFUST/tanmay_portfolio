@@ -18,6 +18,6 @@ To run this portfolio locally:
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
    Your portfolio will be running on [http://localhost:3000](http://localhost:3000).
